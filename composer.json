@@ -1,0 +1,21 @@
+{
+    "name": "bachi/compressor",
+    "description": "Compress your files or strings!",
+    "tags": ["compress", "gzip"],
+    "licence": "MIT",
+    "homepage": "https://github.com/Baachi/compressor",
+    "authors": [
+        {
+            "name": "Markus Bachmann",
+            "email": "markus.bachmann@bachi.biz"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Compressor": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.3.2"
+    }
+}
