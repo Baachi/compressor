@@ -6,3 +6,14 @@ __Which methods are supported?__
 
  * gzip
  * bzip
+ * lzf
+ * zlib
+
+ ## Usage ##
+
+ ```php
+ <?php
+
+ $compressor = new Compressor\Compressor();
+ $string = $compressor->compress('foorbar', 9);
+ ```
